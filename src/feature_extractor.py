@@ -125,17 +125,13 @@ def convert_color(image, dest_color_space=DEFAULT_COLOR_SPACE):
     return image
 
 
-def find_cars(image, y_start, y_stop, scale, svc, feature_scaler):
+def find_vehicles(image, y_start, y_stop, scale, svc, feature_scaler, color_space=DEFAULT_COLOR_SPACE,
+                  spatial_size=SPATIAL_SIZE, hist_bins=HIST_BINS, orient=ORIENT, pix_per_cell=PIXELS_PER_CELL,
+                  cell_per_block=CELL_PER_BLOCK):
     hot_windows = []
 
     resize_h = RESIZE_H
     resize_w = RESIZE_W
-    color_space = DEFAULT_COLOR_SPACE
-    spatial_size = SPATIAL_SIZE
-    hist_bins = HIST_BINS
-    orient = ORIENT
-    pix_per_cell = PIXELS_PER_CELL
-    cell_per_block = CELL_PER_BLOCK
 
     draw_img = np.copy(image)
     image_crop = draw_img[y_start:y_stop, :, :]

@@ -33,7 +33,7 @@ def pipeline(frame, svc=None, scaler=None, keep_state=True, verbose=False):
     frame_blurred = hmp.gaussian_blur(frame, 3)
 
     for size_subsample in np.arange(1, 4, .3):
-        hot_windows += fext.find_cars(frame_blurred, 400, 600, size_subsample, svc, scaler)
+        hot_windows += fext.find_vehicles(frame_blurred, 400, 600, size_subsample, svc, scaler)
 
     if keep_state:
         if hot_windows:
