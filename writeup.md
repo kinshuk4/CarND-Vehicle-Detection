@@ -125,7 +125,7 @@ Ultimately I searched on two scales using YCrCb 3-channel HOG features plus spat
 ### Video Implementation
 
 #### 1. Provide a link to your final video output.  Your pipeline should perform reasonably well on the entire project video (somewhat wobbly or unstable bounding boxes are ok as long as you are identifying the vehicles most of the time with minimal false positives.)
-Here's a  [input video](./project_video.mp4). After applying the `video_pipeline` I was able to get the following [video output](./out_project_video.mp4).
+Here's a  [input video](./project_video.mp4). After applying the `video_pipeline` I was able to get the following [video output](./out_project_video.mp4). Here is the [youtube](https://www.youtube.com/watch?v=CtctLQaF_s4) version as well.
 
 
 #### 2. Describe how (and identify where in your code) you implemented some kind of filter for false positives and some method for combining overlapping bounding boxes.
