@@ -2,15 +2,22 @@
 [![Udacity - Self-Driving Car NanoDegree](https://s3.amazonaws.com/udacity-sdc/github/shield-carnd.svg)](http://www.udacity.com/drive)
 
 
-In this project, your goal is to write a software pipeline to detect vehicles in a video (start with the test_video.mp4 and later implement on full project_video.mp4), but the main output or product we want you to create is a detailed writeup of the project.  Check out the [writeup template](https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) for this project and use it as a starting point for creating your own writeup.  
+Created a vehicle detection and tracking pipeline with OpenCV, histogram of oriented gradients (HOG), and support vector machines (SVM). Optimized and evaluated the model on video data from a automotive camera taken during highway driving.
 
-Creating a great writeup:
----
-A great writeup should include the rubric points as well as your description of how you addressed each point.  You should include a detailed description of the code used in each step (with line-number references and code snippets where necessary), and links to other supporting documents or external references.  You should include images in your writeup to demonstrate how your code works with examples.  
+[//]: # (Image References)
+[image7]: ./examples/output_bboxes.png
+[image8]: (http://img.youtube.com/vi/CtctLQaF_s4/0.jpg)](https://www.youtube.com/watch?v=CtctLQaF_s4 "Autonomouse Cars : Vehicle Detection")
+[image9]: ./output_images/sdcnd_vehicle_detection_gif.gif
+[video1]: ./project_video.mp4
 
-All that said, please be concise!  We're not looking for you to write a book here, just a brief description of how you passed each rubric point, and references to the relevant code :). 
+![alt text][image7]
+(https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) for this project and use it as a starting point for creating your own writeup.  
 
-You can submit your writeup in markdown or use another method and submit a pdf instead.
+Here is video in action:
+![alt text][image8]
+
+Small GIF if you don't want to see video:
+![alt text][image7]
 
 The Project
 ---
