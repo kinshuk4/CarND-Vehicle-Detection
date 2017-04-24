@@ -6,18 +6,18 @@ Created a vehicle detection and tracking pipeline with OpenCV, histogram of orie
 
 [//]: # (Image References)
 [image7]: ./examples/output_bboxes.png
-[image8]: (http://img.youtube.com/vi/CtctLQaF_s4/0.jpg)(https://www.youtube.com/watch?v=CtctLQaF_s4 "Autonomouse Cars : Vehicle Detection")
-[image9]: ./output_images/sdcnd_vehicle_detection_gif.gif
+[image8]: ./output_images/sdcnd_vehicle_detection_gif.gif
 [video1]: ./project_video.mp4
 
 ![alt text][image7]
 (https://github.com/udacity/CarND-Vehicle-Detection/blob/master/writeup_template.md) for this project and use it as a starting point for creating your own writeup.  
 
 Here is video in action:
-![alt text][image8]
+[![Autonomouse Cars : Vehicle Detection](http://img.youtube.com/vi/CtctLQaF_s4/0.jpg)](https://www.youtube.com/watch?v=CtctLQaF_s4)
+
 
 Small GIF if you don't want to see video:
-![alt text][image9]
+![alt text][image8]
 
 The Project
 ---
